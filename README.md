@@ -1,19 +1,6 @@
-# Page 1
+# Welcome
 
-## 1.1
-
-### 1.1.a
-
-{:.im1} ![obrazek](public/image1.png)
-
-### 1.1.b
-
-<img src="public/image1.png" alt="2" width="200px" height="150px" />
-
-### 1.1.c
-
-<img src="public/image1.png" alt="2" class="im1" />
-
+**Hello world**
 
 ```
 jakiś kod

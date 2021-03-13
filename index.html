@@ -1,18 +1,19 @@
-# Page 1
+---
+layout: default
+title: Home
+---
 
-## 1.1
+#Test
 
-### 1.1.a
+Lorem ipsum. Lorem ipsum. 5.
 
-{:.im1} ![obrazek](public/image1.png)
-
-### 1.1.b
-
-<img src="public/image1.png" alt="2" width="200px" height="150px" />
-
-### 1.1.c
-
-<img src="public/image1.png" alt="2" class="im1" />
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 
 ```
